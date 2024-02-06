@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: Montserrat;
+    background-color: rgb(64, 64, 203);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.fixed-slab {
+    position: fixed;
+    left: 0;
+    bottom: 18.5em;
+    background-color: white;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    padding: 0.6em 1em;
+    transform-origin: bottom left;
+    transform: rotate(90deg);
+}
+
+.navbar {
+    width: 100%;
+    height: 9vh;
+    padding: 0 2vw 0 3vw;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-main {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.wix-logo {
+    height: 4em;
+    width: 6em;
+    background-color: #333;
+}
+
+.navigations, .primary-nav, .secondary-nav {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+
+}
+
+.primary-nav {
+    border-right: 1px solid gray;
+    padding-right: 2em;
+}
+
+.primary-nav li {
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.primary-nav li span {
+    font-size: 1.2rem; 
+    color: inherit;   
+}
+
+.nav-cta {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.languages {
+    font-size: 1rem;
+    color: gray;
+    padding-right: 1em;
+    border-right: 1px solid gray;
+    padding-top: 0.4em;
+}
+
+.get-started {
+    background-color: rgb(62, 62, 255);
+    color: white;
+    padding: 0.8em 2em;
+    border-radius: 2em;
+}
+
+.learn-more {
+    width: 100%;
+    height: 8.5vh;
+    font-size: 0.95rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    background-color: rgb(166, 255, 255);
+}
+
+.lm-content span {
+    font-size: 1rem;
+    margin-right: 0.2em;
+}
+
+.lm-link {
+    padding: 2.2vh;
+    align-self: start;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-weight: 500;
+}
+
+.container {
+    width: 100%;
+    min-height: 80vh;
+}
+
+.hero-section {
+    width: 50vw;
+    height: 80vh;
+    margin: 0 auto;
+    color: white;
+    font-weight: 600;
+    padding-top: 3.6em;
+    text-align: center;
+}
+
+.hero-heading {
+    font-size: 5.6rem;
+    font-weight: 400;
+    margin-bottom: 0.18em;
+    letter-spacing: -0.1rem;
+}
+
+.hero-content {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 1.8em;
+}
+
+.get-started-options {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 0.8em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2.2em;
+}
+
+.get-started-options label {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.6em 1.2em;
+    border: 1px solid white;
+    border-radius: 0.8em;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    position: relative;
+}
+
+.get-started-options input {
+    display: none;
+}
+
+.tick-option {
+    position: absolute;
+    top: -0.25em;
+    right: -0.25em;
+    border-radius: 50%;
+    color: rgb(62, 62, 255);
+    background-color: white;
+}
+
+.form-btn {
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 0.6em 1.4em;
+    margin: 0 auto 1em;
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+    border-radius: 2em;
+    border: none;       
+}
+
+.form-btn:hover .lm-arrow {
+    display: inline-block !important;
+}
+
+.hero-footer {
+    font-size: 0.8rem;
+    width: 25%;
+    margin: 0 auto;
+}
